@@ -1,0 +1,19 @@
+body {
+    background-color: #ffffff; /* Color de fondo claro para mejor legibilidad */
+    color: #343a40; /* Texto oscuro para buen contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el cuadro */
+    background-color: #ffd500; /* Fondo amarillo para el formulario */
+    border-radius: 30px; /* Bordes redondeados */
+}
+.result {
+    font-weight: bold;
+    margin-top: 10px;
+}
